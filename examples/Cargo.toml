@@ -28,6 +28,10 @@ winit = { version = "0.19", optional = true }
 glutin = { version = "0.21", optional = true }
 clap = { version = "2.33", default-features = false, optional = true }
 
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+objc2-app-kit = { version = "0.3.2", features = ["NSApplication", "NSResponder"] }
+
 [features]
 default = []
 gui = [
