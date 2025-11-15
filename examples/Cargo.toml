@@ -74,10 +74,6 @@ name = "channelsum"
 path = "channelsum.rs"
 
 [[bin]]
-name = "mse"
-path = "mse.rs"
-
-[[bin]]
 name = "offline_context"
 path = "offline_context.rs"
 
